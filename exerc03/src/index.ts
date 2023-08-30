@@ -19,4 +19,4 @@ const ret1 = new Rectangle(10, 10);
 console.log(ret1.calcAreaRet());
 
 const ret2 = new Rectangle(100, 10);
-console.log(ret1.calcAreaRet());
+console.log(ret2.calcAreaRet());

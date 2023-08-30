@@ -1,16 +1,17 @@
 "use strict";
-/* 1. Crie uma classe chamada `Person` com propriedades `name` e `age`. Instancie alguns objetos dessa classe.
-2. Adicione um método à classe `Person` que imprime uma saudação com o nome da pessoa.
+/* 3. Crie uma classe `Rectangle` com propriedades `width` e `height`. Adicione um método que calcula a área do retângulo.
 */
-class Person {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
+class Rectangle {
+    constructor(height, width) {
+        this.height = height;
+        this.width = width;
     }
-    hello() {
-        return `Olá ${this.name}! Você esta bem para os seus ${this.age} anos de idade!`;
+    calcAreaRet() {
+        const areaRet = this.height * this.width;
+        return `A área do retângulo de largura ${this.width}u e altura ${this.height}u é de ${areaRet}m².`;
     }
 }
-const pessoa = new Person("Clóvis Garcia", 48);
-console.log(pessoa);
-console.log(pessoa.hello());
+const ret1 = new Rectangle(10, 10);
+console.log(ret1.calcAreaRet());
+const ret2 = new Rectangle(100, 10);
+console.log(ret2.calcAreaRet());
