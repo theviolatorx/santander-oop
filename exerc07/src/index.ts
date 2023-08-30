@@ -24,7 +24,16 @@ class BankAccount {
     }
 
     getBalance(): string{
-        return `O saldo da conta: R$ ${this.balance.toFixed(2)}`;
+        return `Sr(a) ${this.owner}, o saldo da conta: R$ ${this.balance.toFixed(2)}`;
     }
 
 }
+
+const conta1 = new BankAccount("Clóvis", 5000);
+console.log(conta1.getBalance());
+
+conta1.setDep(1180.12);
+console.log(conta1.getBalance());
+
+conta1.setSac(890.52);
+console.log(conta1.getBalance());
