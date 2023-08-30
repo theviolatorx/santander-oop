@@ -16,6 +16,7 @@ Lista com 50 exercícios práticos sobre orientação a objetos em TypeScript pa
 
 **Exercícios Intermediários:**
 11. Crie uma classe `Bank` que contém uma coleção de contas bancárias. Adicione métodos para adicionar contas, fazer transferências e calcular o saldo total do banco.
+
 12. Crie uma classe `Shape` com método `calculateArea()`. Crie subclasses `Square`, `Triangle` e `Pentagon` que implementam esse método.
 13. Crie uma classe `Playlist` que contém objetos da classe `Song`. Adicione métodos para adicionar músicas, remover músicas e calcular a duração total da playlist.
 14. Crie uma classe `Person` com propriedade `address`. Crie uma classe `Address` separada e associe-a à classe `Person`.
@@ -28,6 +29,7 @@ Lista com 50 exercícios práticos sobre orientação a objetos em TypeScript pa
 
 **Exercícios Avançados:**
 21. Crie uma classe `Bank` com um método para simular uma transação bancária que envolve várias contas, garantindo consistência.
+
 22. Implemente um sistema de herança múltipla usando interfaces para representar diferentes habilidades que um personagem de jogo pode ter.
 23. Crie uma classe `Database` que permite operações de CRUD (criar, ler, atualizar e excluir) em objetos que implementam uma interface específica.
 24. Implemente um padrão de projeto Singleton para uma classe `Logger` que registra informações em todo o aplicativo.
