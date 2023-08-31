@@ -2,7 +2,7 @@
 
 class Student {
     name: String;
-    grades: Number[];
+    grades: number[];
 
     constructor(
         name: string,
