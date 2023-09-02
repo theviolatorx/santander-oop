@@ -54,7 +54,7 @@ const d = new Song("M4",1);
 const e = new Song("M5",1);
 const f = new Song("M6",5);
 
-
+FIXME: Verificar o que esta ocorrendo com este problema
 const plr = new Playlist();
 plr.setAddMusic(a);
 plr.setAddMusic(c);
